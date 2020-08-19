@@ -17,8 +17,7 @@ if (gender === "F"){
     } else {
         console.log(`${name}, you are not retired.`)
     }
-} 
-if (gender === "M"){
+} else {
     if (some >= 95){
         console.log(`${name}, you are retired.`)
     } else {
